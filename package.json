@@ -1,26 +1,21 @@
 {
-  "name": "task-heroku",
+  "engines": {
+    "node": "15.2.0"
+  },
+  "name": "task5",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.0.0"
-  },
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongodb": "^3.6.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
+    "mongoose": "^5.10.18"
   }
 }
