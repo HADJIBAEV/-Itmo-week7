@@ -11,7 +11,3 @@ import createApp from './app.js'
 const app = createApp(express, bodyParser, createReadStream, crypto, http, mongo);
 
 app.listen(process.env.PORT || 3000)
-
-app.listen(port, () => {
-  console.log('Server is up!');
-});
